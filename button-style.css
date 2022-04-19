@@ -1,0 +1,37 @@
+#search {
+    color: teal;
+    background-color: rgba(255, 231, 231, 0.849);
+    border: 2px solid teal;
+    width: 120px;
+    height: 30px;
+    border-radius: 75px;
+    font-size: large;
+    font-weight: bold;
+    margin: 25px;
+
+}
+
+#button2 {
+    color: white;
+    background-color: #9FE2BF;
+    border: 1px solid #9FE2BF;
+    border-radius: 100px;
+    margin: 25px;
+    width: 40px;
+    height: 40px;
+    font-size: 20pt;
+
+
+}
+
+#createAccount {
+    overflow: auto;
+    box-shadow: 10px 5px 5px black;
+    margin: 25px;
+    width: 155px;
+    height: 35px;
+    color: white;
+    background-color: royalblue;
+    border: 5px bold black;
+    font-size: 12pt;
+}
