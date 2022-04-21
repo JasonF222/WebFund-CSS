@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Balsamiq Sans', cursive;
+    /* outline: 1px solid red; */
+    /*outline 1px solid red = showing lego blocks while building webpages*/
+}
+
+.container {
+    padding: 0 25%;
+}
+
+.userCard {
+    box-shadow: 10px 5px 5px black;
+    background-color: white;
+    border: 3px solid gray;
+    border-radius: 5px;
+    min-width: fit-content;
+    /*to keep content fitting no matter the scale */
+}
+
+.cardHeader {
+    background-color: rgb(27, 160, 160);
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.cardBody {
+    padding: 20px;
+}
+
+.cardBody * {
+    margin-bottom: 10px;
+}
+
+/* h1 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+} */
+
+.userCircle {
+    border-radius: 50%;
+    background-color: white;
+    height: 175px;
+    padding: 3px;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 10px 5px 5px black;
+}
+
+.smallIcon {
+    height: 20px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
