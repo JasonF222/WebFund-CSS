@@ -1,0 +1,307 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Balsamiq Sans', cursive;
+    /* outline: 1px solid red; */
+}
+
+/* Nav Bar CSS */
+
+#grad3 {
+    background-image: linear-gradient(gray, black, gray);
+}
+
+.nav {
+    margin-right: auto;
+    border: 5px solid black;
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-title {
+    display: flex;
+    color: blanchedalmond;
+    flex: .5;
+    font-size: 30pt;
+
+}
+
+.nav-links {
+    display: flex;
+    /* padding: 10px; */
+    list-style: none;
+    margin-left: auto;
+    align-items: center;
+    flex: 2;
+    font-size: 14pt;
+
+}
+
+#active {
+    font-weight: 800;
+    color: white;
+
+}
+
+.btn {
+    width: 80px;
+    /* height: 20px; */
+    color: blanchedalmond;
+    background-color: #17a2b8;
+    margin: 5px 0px 5px 10px;
+    border: 3px solid black;
+    box-shadow: 5px 5px 5px black;
+
+}
+
+li [href] {
+    color: blanchedalmond;
+    text-decoration: none;
+    padding: 20px;
+}
+
+/* User Card CSS */
+
+.main {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    gap: 50px;
+}
+
+.col1 {
+    flex: 2;
+}
+
+.col2 {
+    flex: 1;
+}
+
+.userCard {
+    box-shadow: 10px 5px 5px black;
+    background-color: white;
+    border: 3px solid gray;
+    border-radius: 5px;
+    min-width: fit-content;
+    /*to keep content fitting no matter the scale */
+}
+
+#grad {
+    background-image: linear-gradient(to bottom, rgb(27, 160, 160), rgb(121, 206, 206), rgb(27, 160, 160));
+}
+
+.cardHeader {
+    background-color: rgb(27, 160, 160);
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.cardBody {
+    padding: 20px;
+}
+
+.cardBody * {
+    margin-bottom: 10px;
+}
+
+/* h1 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+} */
+
+.userCircle {
+    border-radius: 50%;
+    background-color: white;
+    height: 175px;
+    padding: 3px;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 10px 5px 5px black;
+}
+
+.smallIcon {
+    height: 20px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Education Card CSS */
+
+#grad2 {
+    background-image: linear-gradient(to bottom, rgb(43, 43, 43), rgb(82, 82, 82), rgb(43, 43, 43));
+}
+
+.ehead {
+    border-top: 3px solid gray;
+    border-left: 3px solid gray;
+    border-right: 3px solid gray;
+    margin-top: 5%;
+    background-color: rgb(43, 43, 43);
+    height: 40px;
+    /* width: 100%; */
+    display:flex;
+    align-items: center;
+    box-shadow: 10px 5px 5px black;
+    
+}
+
+.edu {
+    margin: 10px;
+    color: blanchedalmond;
+    font-size: 16pt;
+
+}
+
+.ebody {
+    border-bottom: 3px solid gray;
+    border-left: 3px solid gray;
+    border-right: 3px solid gray;
+    padding: 10px;
+    box-shadow: 10px 5px 5px black;
+    background-color: white;
+
+}
+
+.loc {
+    font-size: 16pt;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.date {
+    margin-bottom: 10px;
+
+}
+
+.econt {
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+/* Request Card CSS */
+
+.requestCard {
+    box-shadow: 10px 5px 5px black;
+    background-color: white;
+    border: 3px solid gray;
+    border-radius: 5px;
+    min-width: fit-content;
+    margin-bottom: 10%;
+    /*to keep content fitting no matter the scale */
+}
+
+.requestCardHeader {
+    background-color: rgb(43, 43, 43);
+    color: blanchedalmond;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 16pt;
+}
+
+.requestCardBody {
+    padding: 20px;
+}
+
+.btn2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 16pt;
+    border: 2px solid white;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.contPic {
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.contPic2 {
+    height: 50px;
+    border-radius: 50%;
+    background-color: greenyellow;
+    border: 3px solid greenyellow;
+}
+
+.contPic3 {
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    border: 3px solid red;
+}
+
+.spanInfo {
+    font-size: 16pt;
+    margin-right: auto;
+}
+
+/* Contact Card CSS */
+
+.contactCard {
+    box-shadow: 10px 5px 5px black;
+    background-color: white;
+    border: 3px solid gray;
+    border-radius: 5px;
+    min-width: fit-content;
+    /*to keep content fitting no matter the scale */
+}
+
+.contactCardBody {
+    padding: 20px;
+}
+
+.contactHeader {
+    background-color: rgb(43, 43, 43);
+    color: blanchedalmond;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 16pt;
+}
+
+.btn3 {
+    height: 40px;
+    width: 70px;
+    border-radius: 50%;
+    font-size: 16pt;
+    border: 2px solid white;
+}
+
+/* View More CSS */
+
+.viewMoreBody {
+    box-shadow: 10px 5px 5px black;
+    background-color: white;
+    border: 3px solid gray;
+    border-radius: 5px;
+    padding: 20px;
+    min-width: fit-content;
+    font-size: 16pt;
+    /*to keep content fitting no matter the scale */
+}
